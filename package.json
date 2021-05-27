@@ -1,0 +1,19 @@
+{
+  "name": "vizol",
+  "version": "1.0.0",
+  "description": "SIM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  },
+  "author": "Luiz F. P. Droubi <lfpdroubi@gmail.com> (droubi.me)",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "ol": "^6.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
